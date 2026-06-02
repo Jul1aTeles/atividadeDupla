@@ -27,6 +27,6 @@ class CapsulaDoTempo():
 
 teste = CapsulaDoTempo("Julia","Hello",2013,2015)
 teste.pode_abrir()
-teste.calcular_espera()
+print(teste.calcular_espera())
 teste.classificar_espera()
 teste.exibir_resumo()
