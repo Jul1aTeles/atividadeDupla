@@ -23,7 +23,7 @@ class CapsulaDoTempo():
         else:
             print("Espera longa")
     def exibir_resumo(self):
-        return f" \nautor:{self.autor}\n mensagem:{self.mensagem}\n ano de abertura:{self.ano_abertura}\n ano atual: {self.ano_atual}"
+        print(f"\n autor:{self.autor}\n mensagem:{self.mensagem}\n ano de abertura:{self.ano_abertura}\n ano atual: {self.ano_atual}")
 
 teste = CapsulaDoTempo("Julia","Hello",2013,2015)
 teste.pode_abrir()
